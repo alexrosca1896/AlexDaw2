@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\data\\songchengcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:data\\songchengcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AlexandruHoreaRosca\\AppData\\Local\\SourceServer\\cdfc48dedd8a0e16a4d809dd1cd23ac5ff2338ff1ff64845495aaeb43e65b50e\\SongCheng\\Models\\OrderDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|c:\\users\\alexandruhorearosca\\source\\repos\\daw2rosca\\songcheng\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF93662F-9508-4996-BD71-FECD8F0A6FA4}|SongCheng.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Dto\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Dto\\ProductDto.cs",
+              "RelativeToolTip": "Dto\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:11:05.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:37:35.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "Controllers\\AddressController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:37:01.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SongChengContext.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Data\\SongChengContext.cs",
+              "RelativeDocumentMoniker": "Data\\SongChengContext.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Data\\SongChengContext.cs",
+              "RelativeToolTip": "Data\\SongChengContext.cs",
+              "ViewState": "AgIAAAwAAACwzMzMzGw9wBwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:13:13.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:37:42.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:38:50.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAMDMzMzPbvxMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:21:52.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:51:04.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\AppData\\Local\\SourceServer\\cdfc48dedd8a0e16a4d809dd1cd23ac5ff2338ff1ff64845495aaeb43e65b50e\\SongCheng\\Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\cdfc48dedd8a0e16a4d809dd1cd23ac5ff2338ff1ff64845495aaeb43e65b50e\\SongCheng\\Models\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\AppData\\Local\\SourceServer\\cdfc48dedd8a0e16a4d809dd1cd23ac5ff2338ff1ff64845495aaeb43e65b50e\\SongCheng\\Models\\OrderDetails.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\cdfc48dedd8a0e16a4d809dd1cd23ac5ff2338ff1ff64845495aaeb43e65b50e\\SongCheng\\Models\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:49:29.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:35:37.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:14:39.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IngredientsController.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\IngredientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IngredientsController.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Controllers\\IngredientsController.cs",
+              "RelativeToolTip": "Controllers\\IngredientsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:38:33.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\AlexandruHoreaRosca\\source\\repos\\Daw2Rosca\\SongCheng\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAABMvQgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:34:36.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

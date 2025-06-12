@@ -1,0 +1,40 @@
+.login-form {
+  max-width: 400px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  color: white;
+}
+
+.login-form h2 {
+  color: white;
+  margin-bottom: 16px;
+}
+
+.register-link {
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  z-index: 2;
+  position: relative;
+  display: block;
+
+  button {
+    all: unset; 
+    color: #ffc107;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  button:hover {
+    opacity: 0.85;
+  }
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+}

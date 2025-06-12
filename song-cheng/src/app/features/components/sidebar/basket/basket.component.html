@@ -1,0 +1,28 @@
+<div class="cart">
+  <h3>🛒 Mi Carrito</h3>
+
+  <ng-container *ngIf="basketFacadeService.items$ | async as items">
+    <p *ngIf="items.length === 0">
+      No tiene productos en su carrito actualmente.
+    </p>
+
+    <mat-list *ngIf="items.length > 0">
+      <mat-list-item *ngFor="let item of items">
+        {{ item.name }} x{{ item.quantity }}
+        <span class="spacer"></span>
+        {{ item.price * item.quantity | number : "1.2-2" }} €
+      </mat-list-item>
+    </mat-list>
+
+    <p><strong>Total:</strong> {{ basketFacadeService.total$ | async | number : "1.2-2" }} €</p>
+
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="confirmOrder()"
+      [disabled]="items.length === 0"
+    >
+      Confirmar Pedido
+    </button>
+  </ng-container>
+</div>

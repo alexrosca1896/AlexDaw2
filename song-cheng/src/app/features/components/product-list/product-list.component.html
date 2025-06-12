@@ -1,0 +1,53 @@
+<div class="product-grid">
+  <div
+    class="product-card"
+    *ngFor="let product of facade.data$ | async"
+    [class.flipped]="flippedProductId === product.id"
+  >
+    <div class="card-inner">
+      <div class="card-front" (click)="toggleFlip(product.id)">
+        <div class="image-wrapper">
+          <img
+            [src]="'assets/products/' + product.code + '.png'"
+            [alt]="product.name"
+          />
+          <span class="flip-icon material-icons">rotate_right</span>
+        </div>
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.price.toFixed(2) }}€</p>
+      </div>
+
+      <div class="card-back" (click)="toggleFlip(null)">
+        <p>{{ product.description }}</p>
+
+        <button
+          mat-stroked-button
+          type="button"
+          (click)="viewIngredients(product); $event.stopPropagation()"
+        >
+          Ver ingredientes
+        </button>
+
+        <div
+          class="ingredients-list"
+          *ngIf="selectedIngredientsProductId === product.id"
+        >
+          <ul>
+            <li *ngFor="let ingredient of product.ingredients">
+              {{ ingredient }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <button
+      mat-raised-button
+      color="accent"
+      class="order-btn"
+      (click)="addToCart(product)"
+    >
+      PIDE AHORA
+    </button>
+  </div>
+</div>

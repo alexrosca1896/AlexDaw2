@@ -1,0 +1,15 @@
+.confirmar-btn {
+  background-color: #ffca28;
+  color: #000; 
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirmar-btn:hover {
+  background-color: #ffc107;
+}

@@ -1,0 +1,12 @@
+.sidebar {
+  width: 280px;
+  padding: 1.5rem;
+  background-color: #111;
+  color: white;
+}
+.main-container {
+  display: flex;
+  flex: 1;
+  min-height: calc(100vh - 112px);
+}
+

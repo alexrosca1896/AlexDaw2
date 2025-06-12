@@ -1,0 +1,57 @@
+<table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+
+  <!-- Toggle column -->
+  <ng-container matColumnDef="toggle">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let row" class="toggle-cell">
+      <button mat-icon-button (click)="row.expanded = !row.expanded">
+        <mat-icon>
+          {{ row.expanded ? 'expand_less' : 'expand_more' }}
+        </mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <!-- Date -->
+  <ng-container matColumnDef="date">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Fecha</th>
+    <td mat-cell *matCellDef="let o">{{ o.date | date:'short' }}</td>
+  </ng-container>
+
+  <!-- Total -->
+  <ng-container matColumnDef="price">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Total</th>
+    <td mat-cell *matCellDef="let o">{{ o.price | number:'1.2-2' }} €</td>
+  </ng-container>
+
+  <!-- Tipo -->
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Tipo</th>
+    <td mat-cell *matCellDef="let o">{{ o.type }}</td>
+  </ng-container>
+
+  <!-- Header & Row -->
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row        *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  <!-- Detail Row -->
+  <tr mat-row *matRowDef="let row; when: isDetailRow" class="detail-row">
+    <td [attr.colspan]="displayedColumns.length">
+      <mat-expansion-panel [expanded]="row.expanded" hideToggle>
+        <mat-expansion-panel-header>
+          Productos del pedido
+        </mat-expansion-panel-header>
+        <table class="inner-table">
+          <tr *ngFor="let d of row.details">
+            <td>{{ d.productName }}</td>
+            <td>{{ d.quantity }}</td>
+            <td>{{ d.price | number:'1.2-2' }} €</td>
+          </tr>
+        </table>
+      </mat-expansion-panel>
+    </td>
+  </tr>
+
+</table>
+
+<mat-paginator [pageSizeOptions]="[5,10,20]" showFirstLastButtons></mat-paginator>

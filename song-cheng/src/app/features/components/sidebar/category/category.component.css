@@ -1,0 +1,26 @@
+::ng-deep .category-list .mat-expansion-panel {
+  background-color: #1e1e1e !important; 
+  color: white;
+  border-radius: 8px;
+  margin-top: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+::ng-deep .category-list .mat-expansion-panel-header {
+  color: white !important;
+  font-weight: bold;
+}
+
+::ng-deep .category-list .mat-expansion-panel-body {
+  padding: 0 16px 8px;
+}
+
+::ng-deep .category-list a.mat-list-item {
+  color: white !important;
+  padding-left: 8px;
+}
+
+::ng-deep .category-list a.mat-list-item:hover {
+  background-color: #333;
+  border-radius: 4px;
+}

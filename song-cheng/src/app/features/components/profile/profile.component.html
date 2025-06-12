@@ -1,0 +1,16 @@
+<mat-card *ngIf="client">
+  <h2>Perfil</h2>
+  <p><strong>DNI:</strong> {{ client.dni }}</p>
+  <p><strong>Nombre:</strong> {{ client.name }}</p>
+  <p><strong>Teléfono:</strong> {{ client.phone }}</p>
+
+  <div *ngIf="client.addresses?.length">
+    <h3>Direcciones</h3>
+    <div *ngFor="let addr of client.addresses">
+      <p><strong>Calle:</strong> {{ addr.name }}</p>
+      <p><strong>Código Postal:</strong> {{ addr.postalCode }}</p>
+      <p><strong>Ciudad:</strong> {{ addr.city }}</p>
+      <hr />
+    </div>
+  </div>
+</mat-card>

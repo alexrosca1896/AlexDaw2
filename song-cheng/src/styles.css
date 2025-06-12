@@ -1,0 +1,21 @@
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/bg.png");
+  background-size: cover; 
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  font-family: Roboto, sans-serif;
+}
+
+.mat-mdc-list-item .mdc-list-item__primary-text {
+  color: white !important;
+}

@@ -1,0 +1,68 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="register-form">
+  <h2>Crear cuenta</h2>
+
+  <div class="form-columns">
+    <!-- Columna izquierda: Datos personales -->
+    <div class="form-section">
+      <mat-form-field appearance="fill">
+        <mat-label>DNI</mat-label>
+        <input matInput formControlName="dni" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input matInput type="password" formControlName="password" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Confirmar contraseña</mat-label>
+        <input matInput type="password" formControlName="confirmPassword" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput formControlName="name" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Teléfono</mat-label>
+        <input matInput formControlName="phone" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-section" formGroupName="address">
+      <h3>Dirección</h3>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Dirección</mat-label>
+        <input matInput formControlName="name" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Código Postal</mat-label>
+        <input matInput type="number" formControlName="postalCode" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Ciudad</mat-label>
+        <input matInput formControlName="city" />
+      </mat-form-field>
+    </div>
+  </div>
+
+  <button
+    mat-raised-button
+    color="primary"
+    type="submit"
+    [disabled]="form.invalid"
+  >
+    Registrarse
+  </button>
+
+  <p class="login-link">
+    ¿Ya tienes cuenta?
+    <a class="link-button" routerLink="/login">Iniciar sesión</a>
+  </p>
+
+  <p *ngIf="error" class="error-msg">{{ error }}</p>
+</form>

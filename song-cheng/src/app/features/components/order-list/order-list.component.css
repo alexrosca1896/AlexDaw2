@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+
+.toggle-cell {
+  width: 40px;
+}
+
+.detail-row {
+  background: #fafafa;
+}
+
+.inner-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+}
+
+.inner-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.inner-table td {
+  padding: 8px;
+}

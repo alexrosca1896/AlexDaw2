@@ -1,0 +1,33 @@
+:host ::ng-deep .profile-dialog-panel .mat-dialog-container {
+  padding: 0;
+  overflow: hidden;
+}
+
+.profile-form {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+  max-height: calc(90vh - 64px); 
+  overflow-y: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.action-buttons {
+  padding: 8px 24px;
+}
